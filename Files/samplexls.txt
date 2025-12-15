@@ -1,0 +1,114 @@
+Here’s an example of a simple Excel file structure that you can create and use for reading in Python. You can create this file using Microsoft Excel, Google Sheets, or any other spreadsheet tool, and save it as sample.xlsx.
+
+Sheet Name: Sales_Data
+
+
+
+Product_ID
+Product_Name
+Quantity
+Price_Per_Unit
+Total_Sales
+
+
+
+
+101
+Laptop
+5
+50000
+250000
+
+
+102
+Smartphone
+10
+20000
+200000
+
+
+103
+Tablet
+7
+15000
+105000
+
+
+104
+Headphones
+15
+2000
+30000
+
+
+105
+Keyboard
+20
+1000
+20000
+
+
+
+
+Sheet Name: Employee_Data
+
+
+
+Employee_ID
+Name
+Department
+Salary
+Joining_Date
+
+
+
+
+E001
+John Smith
+IT
+60000
+2020-01-15
+
+
+E002
+Jane Doe
+HR
+50000
+2019-03-10
+
+
+E003
+Alice Brown
+Finance
+70000
+2021-07-25
+
+
+E004
+Bob Johnson
+Marketing
+55000
+2020-11-05
+
+
+E005
+Charlie Lee
+Sales
+65000
+2018-06-30
+
+
+
+
+You can save this file as sample.xlsx and use Python libraries like pandas or openpyxl to read it. For example:
+Pythonimport pandas as pd
+
+# Reading the Sales_Data sheet
+sales_data = pd.read_excel('sample.xlsx', sheet_name='Sales_Data')
+print(sales_data)
+
+# Reading the Employee_Data sheet
+employee_data = pd.read_excel('sample.xlsx', sheet_name='Employee_Data')
+print(employee_data)
+
+This structure is simple yet versatile for testing purposes.

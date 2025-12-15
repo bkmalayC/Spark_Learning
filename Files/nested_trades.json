@@ -1,0 +1,161 @@
+[
+  {
+    "trade_id": "T001",
+    "notional": 1000000.0,
+    "counterparty": "BakerCorp",
+    "trade_date": "2025-10-01",
+    "product": {
+      "product_type": "CakeSwap",
+      "product_details":[
+	  {
+        "flavor": "vanilla",
+        "size": "large"
+      },
+	    
+      {
+        "flavor": "Sweet_corn",
+        "size": "large"
+      }]
+	  
+    },
+    "parties": [
+      {
+        "name": "Alice",
+        "role": "maker"
+      },
+      {
+        "name": "Bob",
+        "role": "taker"
+      }
+    ],
+    "risk_metrics": {
+      "exposure": 50000.0,
+      "VaR": 12000.0
+    }
+  },
+  {
+    "trade_id": "T002",
+    "notional": 250000.0,
+    "counterparty": "PastryLLC",
+    "trade_date": "2025-10-03",
+    "product": {
+      "product_type": "BreadFuture",
+      "product_details":[
+	  {
+        "flavor": "sourdough",
+        "size": "medium"
+      }]
+    },
+    "parties": [
+      {
+        "name": "Charlie",
+        "role": "maker"
+      }
+    ],
+    "risk_metrics": null
+  },
+  {
+    "trade_id": "T003",
+    "notional": 5000000.0,
+    "counterparty": "ConfectionersInc",
+    "trade_date": "2025-09-15",
+    "product": {
+      "product_type": "CookieOption",
+      "product_details": [
+	  {
+        "flavor": "chocolate",
+        "size": "small"
+      }]
+    },
+    "parties": [
+      {
+        "name": "Diana",
+        "role": "clearing"
+      },
+      {
+        "name": "Evan",
+        "role": "broker"
+      }
+    ],
+    "risk_metrics": {
+      "exposure": 200000.0,
+      "VaR": 45000.0
+    }
+  },
+  {
+    "trade_id": "T004",
+    "notional": 75000.0,
+    "counterparty": "TartTraders",
+    "trade_date": "2025-11-01",
+    "product": {
+      "product_type": "PieSwap",
+      "product_details":[
+	  {
+        "flavor": "apple",
+        "size": "small"
+      }]
+    },
+    "parties": [],
+    "risk_metrics": {
+      "exposure": 1000.0,
+      "VaR": 250.0
+    }
+  },
+  {
+    "trade_id": "T005",
+    "notional": 123456.78,
+    "counterparty": "BakerCorp",
+    "trade_date": "2025-11-05",
+    "product": {
+      "product_type": "CakeSwap",
+      "product_details": [
+	  {
+        "flavor": "strawberry",
+        "size": "medium"
+      }]
+    },
+    "parties": [
+      {
+        "name": "Fay",
+        "role": "maker"
+      },
+      {
+        "name": "Gabe",
+        "role": "observer"
+      }
+    ],
+    "risk_metrics": null
+  },
+  {
+    "trade_id": "T006",
+    "notional": 9999999.99,
+    "counterparty": "WholesaleBakery",
+    "trade_date": "2024-12-31",
+    "product": {
+      "product_type": "Bundle",
+      "product_details": [
+	  {
+        "flavor": "assorted",
+        "size": "bulk"
+      }]
+    },
+    "parties": [
+      {
+        "name": "Helen",
+        "role": "maker"
+      },
+      {
+        "name": "Ian",
+        "role": "taker"
+      },
+      {
+        "name": "Jill",
+        "role": "regulator"
+      }
+    ],
+    "risk_metrics": {
+      "exposure": 750000.0,
+      "VaR": 150000.0
+    }
+  }
+]
