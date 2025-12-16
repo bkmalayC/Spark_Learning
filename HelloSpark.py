@@ -6,7 +6,7 @@ from Config.spark_utils import *
 # Usage: python HelloSpark.py [path/to/file.csv]
 
 def main():
-    path = sys.argv[1] if len(sys.argv) > 1 else r"D:\Malay\Study\1_Programming\Spark_Learning\Files\flattened_output.xlsx"
+    path = sys.argv[1] if len(sys.argv) > 1 else r".\Files\flattened_output.xlsx"
     #path = "d:/Malay/Study/1_Programming/Spark_Learning/Files/cust.xlsx"
     if not os.path.exists(path):
         print(f"File not found: {path}")
