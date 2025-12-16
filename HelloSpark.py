@@ -11,7 +11,7 @@ def main():
     if not os.path.exists(path):
         print(f"File not found: {path}")
         print("Provide a excel path as an argument, e.g. python HelloSpark.py /path/to/file.xlsx")
-        print("Exiting the application...")
+        print("Exiting the program...")
         return
     
     spark = init_spark()
