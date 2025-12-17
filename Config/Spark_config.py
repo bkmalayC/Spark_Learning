@@ -1,11 +1,12 @@
 
 from pyspark.sql import SparkSession
-import findspark, os , shutil  
+#import findspark, os , shutil  
+import os , shutil 
 from pyspark.sql.types import StructType
 from pyspark.sql import DataFrame
 from pyspark.sql import functions as F
 from pyspark.sql.types import StructType, ArrayType, MapType
-import findspark
+#import findspark
 import pandas as pd
 import pyarrow as pa    
 import pyarrow.parquet as pq
