@@ -59,7 +59,7 @@ def _flatten_once(df: DataFrame, explode_arrays: bool):
     return df.select(*cols), saw_struct, saw_array
 
 
-def flatten_df(df: DataFrame, explode_arrays: bool = False, max_iters: int = 20) -> DataFrame:
+def flatten_df(df: DataFrame, explode_arrays: bool = False, max_iters: int = 1000) -> DataFrame:
     """
     Recursively flatten a nested DataFrame schema:
     - StructType columns are expanded into separate top-level columns named parent_child
